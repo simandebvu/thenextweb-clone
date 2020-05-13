@@ -1,0 +1,22 @@
+.main-nav {
+    height: 48px;
+    background-color: aquamarine;
+}
+
+.nav-logo {}
+
+.main {
+    padding-top: 72px;
+    background-color: blueviolet;
+}
+
+.footer {
+    background-color: darkblue;
+}
+
+
+/* .cover-story {
+    min-height: 30vh;
+    background-color: brown;
+    border: 1px solid #000;
+} */

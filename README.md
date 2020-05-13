@@ -8,19 +8,16 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML
+- CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](#)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
 To get a local copy up and running follow these simple example steps.
@@ -33,25 +30,24 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
-### Run tests
-
-### Deployment
-
-
+- Open index.html in any browser
 
 ## Authors
+👤 **Gerónimo Morisot**
 
-👤 **Author1**
+- Github: [@Bismarck-GM](https://github.com/Bismarck-GM)
+- Twitter: [@Rewritablee](https://twitter.com/Rewritablee)
+- Linkedin: [geronimomorisot](https://linkedin.com/in/geronimomorisot)
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+👤 **Shingirayi Mandebvu**
 
-👤 **Author2**
+- Github: [@simandebvu](https://github.com/simandebvu)
+- Twitter: [@simandebvu](https://twitter.com/simandebvu)
+- Linkedin: [simandebvu](https://www.linkedin.com/in/simandebvu/)
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+## Live Demo
+
+Click [here](https://raw.githack.com/Bismarck-GM/microverse-design-teardown/development/index.html) for a live preview.
 
 ## 🤝 Contributing
 
@@ -71,4 +67,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](LICENCE) licensed.
