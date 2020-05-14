@@ -69,6 +69,7 @@ body {
     height: 16px;
     -webkit-transform: translateX(-25%);
     transform: translateX(-25%);
+    color: #000;
 }
 
 .nav-icons-list li {
@@ -79,10 +80,14 @@ body {
 .nav-event {
     background-color: #ffdd33;
     text-align: center;
-    height: 60px;
+    line-height: 60px;
     color: #000;
-    padding: 5%;
+		padding: 0 4%;
+		font-size: 0.9em;
     text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 
@@ -90,7 +95,7 @@ body {
 
 .main {
     padding-top: 72px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .main-articles,
@@ -103,7 +108,7 @@ body {
 
 .article-image {
     background: url("../img/boris.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     max-width: 796px;
     height: 200px;
@@ -111,6 +116,14 @@ body {
     justify-content: flex-end;
     flex-direction: column;
     margin: 0 0 5px;
+}
+
+.article-image header {
+	padding: 14px 12px;
+}
+
+.article-image h2 {
+	margin-bottom: 5px;
 }
 
 .article-header a {
@@ -122,17 +135,22 @@ body {
 
 .latest-news,
 .latest-deals {
-    padding-top: 72px;
+	margin-top: 25px;
+	padding: 2%;
+	color: #000;
 }
 
 .deals-header h2,
 .latest-news-header {
-    font-size: 35px;
+	font-size: 2em;
+	color: #f42;
+	margin-bottom: 10%;
 }
 
 .latest-news-item {
     display: flex;
-    margin-top: 10px;
+		margin-top: 10px;
+		padding: 0% 2% 2% 0%;
 }
 
 .news-image {
@@ -162,13 +180,34 @@ body {
 
 /*------ Deals ------*/
 
+.deals-header {
+	margin-bottom: 30px;
+}
+
 .latest-deals-links ul li {
     margin: 10px 10px 10px 0;
 }
 
-.deals-story-links li,
-.deals-story-links li a {
-    font-size: 0.8em;
+.latest-deals-links ul li a{
+	color: #f42;
+	font-size: 1.2em;
+}
+
+.deals-story-links {
+		background-color: #fffaf8;
+		color: grey;
+		display: block;
+		padding: 2% 6%;
+		line-height: 3em;
+}
+
+.deals-story-links i{
+	margin-right: 5px;
+	font-size: 1.5em;
+}
+
+.deals-story hr {
+	border: 1px solid #ffccc3;
 }
 
 .deals-row-items {
@@ -181,28 +220,38 @@ body {
     position: absolute;
     top: 2%;
     left: 2%;
-    height: 30%;
-    width: 16%;
+		width: 60px;
+    min-width: 60px;
+    max-width: 60px;
+    height: 60px;
+    min-height: 60px;
+    max-height: 60px;
 }
 
 .deals-story a {
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 2% 0 2% 20%;
     color: #fff;
     display: block;
     background-color: #f42;
 }
 
-.deals-story ul a {
-    color: grey;
-    background-color: #fffaf8;
-}
-
 .story-investment-card {
     background-color: #ffebe8;
-    height: 60px;
-    color: black;
-    padding: 2% 0 0 23%;
+    padding: 2% 0 2% 20%;
+}
+
+.story-investment-card p:first-child {
+	font-weight: bold;
+	font-size: 1.2em;
+	color: black;
+	margin-bottom: 5px;
+}
+
+.story-investment-card p:last-child {
+	font-size: 0.8em;
+	color: grey;
+
 }
 
 
@@ -360,7 +409,6 @@ body {
 }
 
 .footer-legal {
-    height: 161px;
     background-color: #000;
     padding: 2em 0;
     text-align: center;
