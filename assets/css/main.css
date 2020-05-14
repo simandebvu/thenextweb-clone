@@ -15,13 +15,18 @@ body {
     font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
+
+/*----------------------------- Nav Bar -----------------------------*/
+
+
 .main-nav {
     height: 48px;
     background-color: #fff;
     position: fixed;
     right: 0;
     top: 0;
-    left: 0;
+		left: 0;
+		z-index: 10;
 }
 
 .nav-logo {
@@ -81,10 +86,19 @@ body {
     text-decoration: none;
 }
 
+/*----------------------------- Main -----------------------------*/
+
+.main {
+    padding-top: 72px;
+    background-color: blueviolet;
+}
+
 .main-articles,
 .wrapper {
     padding: 2%;
 }
+
+/*------ Featured ------*/
 
 .article-image {
     background: url("../img/boris.png");
@@ -102,6 +116,8 @@ body {
     font-size: 30px;
 }
 
+/*------ News ------*/
+
 .latest-news,
 .latest-deals {
     padding-top: 72px;
@@ -115,42 +131,6 @@ body {
 .latest-news-item {
     display: flex;
     margin-top: 10px;
-}
-
-.latest-deals-links ul li {
-    margin: 10px 10px 10px 0;
-}
-
-.deals-story-links li,
-.deals-story-links li a {
-    font-size: 0.8em;
-}
-
-.deals-row-items {
-    height: 220px;
-    position: relative;
-    background-color: darkslategray;
-}
-
-.deals-row-items img {
-    position: absolute;
-    top: 2%;
-    left: 2%;
-}
-
-.deals-story a {
-    font-size: 2em;
-    padding: 2% 0 2% 90px;
-    color: #fff;
-    display: block;
-    background-color: dimgray;
-}
-
-.story-investment-card {
-    background-color: floralwhite;
-    height: 60px;
-    color: black;
-    padding: 2% 0 0 23%;
 }
 
 .news-image {
@@ -177,10 +157,161 @@ body {
     margin-top: 1%;
 }
 
-.main {
-    padding-top: 72px;
-    background-color: blueviolet;
+/*------ Deals ------*/
+
+.latest-deals-links ul li {
+    margin: 10px 10px 10px 0;
 }
+
+.deals-story-links li,
+.deals-story-links li a {
+    font-size: 0.8em;
+}
+
+.deals-row-items {
+    margin-bottom: 3%;
+		position: relative;
+		z-index: 1;
+}
+
+.deals-row-items img {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    height: 30%;
+    width: 16%;
+}
+
+.deals-story a {
+    font-size: 2em;
+    padding: 2% 0 2% 20%;
+    color: #fff;
+    display: block;
+    background-color: #f42;
+}
+
+.deals-story ul a {
+	color: grey;
+	background-color: #fffaf8;
+}
+.story-investment-card {
+    background-color: #ffebe8;
+    height: 60px;
+    color: black;
+    padding: 2% 0 0 23%;
+}
+
+/*------ Category Section ------*/
+
+.category-sections {
+	background-color: chocolate;
+	margin-bottom: 10%;
+}
+
+.category-img {
+	background: url(../img/Codota-368x276.jpg) no-repeat;
+	background-size: cover;
+	height: 200px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	margin: 0 0 1px;
+}
+
+.category-header {
+	font-size: 1.2em;
+}
+
+.category-img p {
+	font-size: 0.8em;
+}
+
+.category-latest {
+	display: flex;
+	flex-direction: row;
+justify-content: center;
+}
+.category-latest-title {
+	background-color: #fff4f2;
+	padding: 5% 5%;
+	color: #f42;
+}
+
+.category-latest-image {
+	background: url(../img/category-latest-image-tiktok.png) 50% no-repeat;
+	min-width: 96px;
+	min-height: 96px;
+	background-size: cover;
+}
+
+.section-apps ul li {
+	border-bottom: 1px solid grey;
+	padding: 1% 2% 1% 6%;
+	color: grey;
+}
+
+.section-apps h2 {
+	font-size: 2em;
+	color: #f42;
+	margin-bottom: 3%;
+}
+
+.section-apps {
+	padding: 2%;
+}
+
+/*------ Last Main Section ------*/
+
+.last-main-section {
+	background-color: grey;
+	display: flex;
+	flex-direction: column;
+}
+
+.last-main-section-header {
+	margin-bottom: 7%;
+}
+
+.last-main-section-header h2{
+	float: left;
+	font-size: 2em;
+	color: #f42;
+}
+
+.last-main-section-header a {
+	float: right;
+	color: #f42;
+	margin-top: 11px;
+}
+
+.last-main-section-list {
+	background-color: darkgreen;
+}
+
+.last-main-section-list-item {
+	display: flex;
+	padding: 2%;
+}
+
+.last-main-section-list-item-img {
+	background: url(../img/last-main-section-list-item-img-sale_27973_primary_image.jpg) no-repeat;
+	background-size: cover;
+	width: 75px;
+	height: 75px;
+
+}
+
+.last-main-section-list-item-info {
+	padding: 3%;
+}
+
+.last-main-section-list-item-info p:first-child {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+/*----------------------------- Footer -----------------------------*/
 
 .footer {
     background-color: darkblue;
