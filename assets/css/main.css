@@ -1,66 +1,180 @@
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    color: #fff;
+    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
 
 .main-nav {
-	height: 48px;
-	background-color: #fff;
-	position: fixed;
-	right: 0;
-	top: 0;
-	left: 0;
+    height: 48px;
+    background-color: #fff;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
 }
 
 .nav-logo {
-	height: 20px;
-	background-color: beige;
-	left: 0;
-	position: absolute;
-	top: 0;
+    height: 20px;
+    background-color: beige;
+    left: 0;
+    position: absolute;
+    top: 0;
 }
+
 .nav-logo a {
-	position: relative;
-	background: linear-gradient(to bottom right,#c09,#f42 85%);
-	display: block;
-	height: 48px;
-	padding: 16px 20px;
-	width: 106px;
+    position: relative;
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
+    display: block;
+    height: 48px;
+    padding: 16px 20px;
+    width: 106px;
 }
 
 .nav-icons-list {
-
-	float: right;
-	list-style: none;
+    float: right;
+    list-style: none;
 }
 
 .nav-icons::after {
-	clear: both;
-	content: "";
-	display: block;
+    clear: both;
+    content: "";
+    display: block;
 }
 
 .nav-icons-list a {
-	display: block;
-	height: 48px;
-	opacity: .25;
-	padding: 16px;
-	width: 48px;
+    display: block;
+    height: 48px;
+    opacity: .25;
+    padding: 16px;
+    width: 48px;
 }
 
 .nav-icons-list a span {
-	width: 16px;
-	height: 16px;
-	-webkit-transform: translateX(-25%);
-	transform: translateX(-25%);
+    width: 16px;
+    height: 16px;
+    -webkit-transform: translateX(-25%);
+    transform: translateX(-25%);
 }
 
-.nav-icons-list li{
-	float: left;
-	border-left: 1px solid #eee
+.nav-icons-list li {
+    float: left;
+    border-left: 1px solid #eee
+}
+
+.nav-event {
+    background-color: #ffdd33;
+    text-align: center;
+    height: 60px;
+    color: #000;
+    padding: 5%;
+    text-decoration: none;
+}
+
+.main-articles,
+.wrapper {
+    padding: 2%;
+}
+
+.article-image {
+    background: url("../img/boris.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 796px;
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin: 0 0 5px;
+}
+
+.article-header a {
+    font-size: 30px;
+}
+
+.latest-news,
+.latest-deals {
+    padding-top: 72px;
+}
+
+.deals-header h2,
+.latest-news-header {
+    font-size: 35px;
+}
+
+.latest-news-item {
+    display: flex;
+    margin-top: 10px;
+}
+
+.latest-deals-links ul li {
+    margin: 10px 10px 10px 0;
+}
+
+.deals-story-links li,
+.deals-story-links li a {
+    font-size: 0.8em;
+}
+
+.deals-row-items {
+    height: 220px;
+    position: relative;
+    background-color: darkslategray;
+}
+
+.deals-row-items img {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+
+.deals-story a {
+    font-size: 2em;
+    padding: 2% 0 2% 90px;
+    color: #fff;
+    display: block;
+    background-color: dimgray;
+}
+
+.story-investment-card {
+    background-color: floralwhite;
+    height: 60px;
+    color: black;
+    padding: 2% 0 0 23%;
+}
+
+.news-image {
+    background: url("../img/latest-news-image.jpg");
+    height: 75px;
+    width: 75px;
+    flex-basis: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.news-info {
+    padding-left: 2%;
+    flex-basis: 80%;
+}
+
+.news-info h2 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.latest-info-description p {
+    font-size: 0.8em;
+    margin-top: 1%;
 }
 
 .main {
