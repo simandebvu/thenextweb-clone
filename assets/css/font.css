@@ -2,61 +2,61 @@
     font-family: Avalon;
     font-style: normal;
     font-weight: 700;
-    src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/avalon-bold.eot);
-    src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/avalon-bold.eot#iefix) format("embedded-opentype"), url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/avalon-bold.woff) format("woff"), url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/avalon-bold.ttf) format("truetype")
+    src: url(/assets/fonts/avalon-bold.eot);
+    src: url(/assets/fonts/avalon-boldiefix.eot) format("embedded-opentype"), url(/assets/fonts/avalon-bold.woff) format("woff"), url(/assets/fonts/avalon-bold.ttf) format("truetype")
 }
 
 @font-face {
     font-family: TNW-Avalon;
     font-style: normal;
     font-weight: 700;
-    src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/TNW-Avalon-Bold.otf);
-    src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/tnw-avalon-bold.ttf)
+    src: url(/assets/fonts/TNW-Avalon-Bold.otf);
+    src: url(/assets/fonts/TNW-Avalon-Bold.ttf)
 }
 
 @font-face {
     font-family: Shentox;
     font-style: normal;
     font-weight: 500;
-    src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/shentox-medium.eot);
-    src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/shentox-medium.eot#iefix) format("embedded-opentype"), url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/shentox-medium.woff2) format("woff2"), url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/shentox-medium.woff) format("woff"), url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/shentox-medium.ttf) format("truetype")
+    src: url(/assets/fonts/shentox-medium.eot);
+    src: url(/assets/fonts/shentox-medium-iefix.eot) format("embedded-opentype"), url(/assets/fonts/shentox-medium.woff2) format("woff2"), url(/assets/fonts/shentox-medium.woff) format("woff"), url(/assets/fonts/shentox-medium.ttf) format("truetype")
 }
 
 @font-face {
     font-family: Trump;
     font-style: normal;
     font-weight: 700;
-    src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/Trump-Gothic-East-Bold.ttf)
+    src: url(/assets/fonts/Trump-Gothic-East-Bold.ttf)
 }
 
 @font-face {
     font-family: Graphik;
     font-style: normal;
     font-weight: 400;
-    src: url(https://cdn4.tnwcdn.com/assets/fonts/graphik/graphik-regular.woff) format("woff"), url(https://cdn4.tnwcdn.com/assets/fonts/graphik/graphik-regular.woff2) format("woff2")
+    src: url(/assets/fonts/graphik-regular.woff) format("woff"), url(/assets/fonts/graphik-regular.woff2) format("woff2")
 }
 
 @font-face {
     font-family: Graphik-Medium;
     font-style: normal;
     font-weight: 500;
-    src: url(https://cdn4.tnwcdn.com/assets/fonts/graphik/graphik-medium.woff) format("woff"), url(https://cdn4.tnwcdn.com/assets/fonts/graphik/graphik-medium.woff2) format("woff2")
+    src: url(/assets/fonts/graphik-medium.woff) format("woff"), url(/assets/fonts/graphik-medium.woff) format("woff2")
 }
 @font-face {
     font-family: ARS-Maquette;
     font-style: normal;
     font-weight: 500;
-    src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular.woff) format("woff");
+    src: url(/assets/fonts/ars-maquette-regular.woff) format("woff");
 }
 @font-face {
     font-family: ARS-Maquette;
     font-style: bold;
     font-weight: 700;
-    src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-bold-alt.woff) format("woff");
+    src: url(/assets/fonts/ars-maquette-bold-alt.woff) format("woff");
 }
 @font-face {
     font-family: ARS-Maquette;
     font-style: italic;
     font-weight: 500;
-    src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular-italic.woff) format("woff");
+    src: url(/assets/fonts/ars-maquette-regular-italic.woff) format("woff");
 }
