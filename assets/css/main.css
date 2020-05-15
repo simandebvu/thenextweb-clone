@@ -82,8 +82,8 @@ body {
     text-align: center;
     line-height: 60px;
     color: #000;
-		padding: 0 4%;
-		font-size: 0.9em;
+    padding: 0 4%;
+    font-size: 0.9em;
     text-decoration: none;
     white-space: nowrap;
     overflow: hidden;
@@ -118,14 +118,21 @@ body {
     margin: 0 0 5px;
 }
 
+.category-img header,
 .article-image header {
-	padding: 14px 12px;
+    padding: 14px 12px;
+}
+
+.article-category {
+    text-transform: uppercase;
+    font-size: 0.9em;
 }
 
 .article-image h2 {
-	margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
+.category-header a,
 .article-header a {
     font-size: 30px;
 }
@@ -135,22 +142,22 @@ body {
 
 .latest-news,
 .latest-deals {
-	margin-top: 25px;
-	padding: 2%;
-	color: #000;
+    margin-top: 25px;
+    padding: 2%;
+    color: #000;
 }
 
 .deals-header h2,
 .latest-news-header {
-	font-size: 2em;
-	color: #f42;
-	margin-bottom: 10%;
+    font-size: 2em;
+    color: #f42;
+    margin-bottom: 10%;
 }
 
 .latest-news-item {
     display: flex;
-		margin-top: 10px;
-		padding: 0% 2% 2% 0%;
+    margin-top: 10px;
+    padding: 0% 2% 2% 0%;
 }
 
 .news-image {
@@ -181,33 +188,33 @@ body {
 /*------ Deals ------*/
 
 .deals-header {
-	margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .latest-deals-links ul li {
     margin: 10px 10px 10px 0;
 }
 
-.latest-deals-links ul li a{
-	color: #f42;
-	font-size: 1.2em;
+.latest-deals-links ul li a {
+    color: #f42;
+    font-size: 1.2em;
 }
 
 .deals-story-links {
-		background-color: #fffaf8;
-		color: grey;
-		display: block;
-		padding: 2% 6%;
-		line-height: 3em;
+    background-color: #fffaf8;
+    color: grey;
+    display: block;
+    padding: 2% 6%;
+    line-height: 3em;
 }
 
-.deals-story-links i{
-	margin-right: 5px;
-	font-size: 1.5em;
+.deals-story-links i {
+    margin-right: 5px;
+    font-size: 1.5em;
 }
 
 .deals-story hr {
-	border: 1px solid #ffccc3;
+    border: 1px solid #ffccc3;
 }
 
 .deals-row-items {
@@ -220,7 +227,7 @@ body {
     position: absolute;
     top: 2%;
     left: 2%;
-		width: 60px;
+    width: 60px;
     min-width: 60px;
     max-width: 60px;
     height: 60px;
@@ -242,16 +249,15 @@ body {
 }
 
 .story-investment-card p:first-child {
-	font-weight: bold;
-	font-size: 1.2em;
-	color: black;
-	margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+    margin-bottom: 5px;
 }
 
 .story-investment-card p:last-child {
-	font-size: 0.8em;
-	color: grey;
-
+    font-size: 0.8em;
+    color: grey;
 }
 
 
