@@ -107,7 +107,7 @@ body {
 /*------ Featured ------*/
 
 .article-image {
-    background: url("../img/boris.png");
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(0, 0, 0, 0.73)), url("../img/boris.png") no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 796px;
@@ -121,6 +121,7 @@ body {
 .category-img header,
 .article-image header {
     padding: 14px 12px;
+    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .article-category {
@@ -128,6 +129,7 @@ body {
     font-size: 0.9em;
 }
 
+.category-img h2,
 .article-image h2 {
     margin-bottom: 5px;
 }
@@ -135,6 +137,7 @@ body {
 .category-header a,
 .article-header a {
     font-size: 30px;
+    font-weight: bold;
 }
 
 
@@ -150,6 +153,7 @@ body {
 .deals-header h2,
 .latest-news-header {
     font-size: 2em;
+    font-family: Avalon, sans-serif;
     color: #f42;
     margin-bottom: 10%;
 }
@@ -182,6 +186,7 @@ body {
 .latest-info-description p {
     font-size: 0.8em;
     margin-top: 1%;
+    color: #aaa;
 }
 
 
@@ -264,12 +269,11 @@ body {
 /*------ Category Section ------*/
 
 .category-sections {
-    background-color: chocolate;
     margin-bottom: 10%;
 }
 
 .category-img {
-    background: url(../img/Codota-368x276.jpg) no-repeat;
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(0, 0, 0, 0.73)), url(../img/Codota-368x276.jpg) no-repeat;
     background-size: cover;
     height: 200px;
     width: 100%;
@@ -307,15 +311,26 @@ body {
 }
 
 .section-apps ul li {
-    border-bottom: 1px solid grey;
-    padding: 1% 2% 1% 6%;
-    color: grey;
+    /* border-bottom: 1px solid grey; */
+    padding: 3% 2% 3% 6%;
+    color: #555;
+    font-size: 13px;
+    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
+.section-apps ul li::before {
+    content: "•";
+    padding-right: 8px;
+    color: #f42;
 }
 
 .section-apps h2 {
     font-size: 2em;
     color: #f42;
+    font-family: Avalon, sans-serif;
     margin-bottom: 3%;
+    font-weight: bold;
+    letter-spacing: -.015em;
 }
 
 .section-apps {
@@ -326,7 +341,6 @@ body {
 /*------ Last Main Section ------*/
 
 .last-main-section {
-    background-color: grey;
     display: flex;
     flex-direction: column;
 }
@@ -347,10 +361,6 @@ body {
     margin-top: 11px;
 }
 
-.last-main-section-list {
-    background-color: darkgreen;
-}
-
 .last-main-section-list-item {
     display: flex;
     padding: 2%;
@@ -365,11 +375,20 @@ body {
 
 .last-main-section-list-item-info {
     padding: 3%;
+    color: black;
 }
 
 .last-main-section-list-item-info p:first-child {
     margin-bottom: 10px;
     font-weight: bold;
+}
+
+.last-main-section-list-item-info span {
+    color: #555;
+}
+
+.old-price {
+    text-decoration: line-through;
 }
 
 
@@ -416,7 +435,7 @@ body {
 
 .footer-legal {
     background-color: #000;
-    padding: 2em 0;
+    padding: 1em 0;
     text-align: center;
     font-size: 0.9em;
 }
