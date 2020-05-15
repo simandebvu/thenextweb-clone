@@ -42,3 +42,21 @@
     font-weight: 500;
     src: url(https://cdn4.tnwcdn.com/assets/fonts/graphik/graphik-medium.woff) format("woff"), url(https://cdn4.tnwcdn.com/assets/fonts/graphik/graphik-medium.woff2) format("woff2")
 }
+@font-face {
+    font-family: ARS-Maquette;
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular.woff) format("woff");
+}
+@font-face {
+    font-family: ARS-Maquette;
+    font-style: bold;
+    font-weight: 700;
+    src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-bold-alt.woff) format("woff");
+}
+@font-face {
+    font-family: ARS-Maquette;
+    font-style: italic;
+    font-weight: 500;
+    src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular-italic.woff) format("woff");
+}
