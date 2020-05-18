@@ -12,7 +12,7 @@ a {
 
 body {
   color: #fff;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-family: "ARS-Maquette", Helvetica Neue, Arial, sans-serif;
 }
 
 /*----------------------------- Nav Bar -----------------------------*/
@@ -131,7 +131,7 @@ body {
 .category-img header,
 .article-image header {
   padding: 14px 12px;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-family: "ARS-Maquette", Helvetica Neue, Arial, sans-serif;
 }
 
 .article-category {
@@ -236,27 +236,29 @@ body {
 
 .deals-row-items img {
   position: absolute;
-  top: 2%;
-  left: 2%;
+  /* top: 2%;
+  left: 2%; */
   width: 60px;
   min-width: 60px;
   max-width: 60px;
   height: 60px;
   min-height: 60px;
   max-height: 60px;
+  margin: 10px;
 }
 
 .deals-story a {
   font-size: 1.5em;
-  padding: 2% 0 2% 20%;
+  padding: 10px 16px 10px 84px;
   color: #fff;
   display: block;
   background-color: #f42;
+  font-family: "ARS-Maquette", Helvetica Neue, Arial, sans-serif;
 }
 
 .story-investment-card {
   background-color: #ffebe8;
-  padding: 2% 0 2% 20%;
+  padding: 10px 16px 10px 84px;
 }
 
 .story-investment-card p:first-child {
@@ -323,7 +325,7 @@ body {
   padding: 3% 2% 3% 6%;
   color: #555;
   font-size: 13px;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-family: ARS-Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .section-apps ul li::before {
@@ -380,11 +382,11 @@ body {
     no-repeat;
   background-size: cover;
   width: 75px;
-  height: 75px;
+  padding-top: 75px;
 }
 
 .last-main-section-list-item-info {
-  padding: 3%;
+  padding: 0 0 0 3%;
   color: black;
 }
 
@@ -406,13 +408,18 @@ body {
 .footer-links {
   height: 161px;
   background-color: #131313;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .footer-links ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5%;
+  margin-bottom: 21px;
 }
 
 .footer-links-menu li {
@@ -478,7 +485,7 @@ body {
     margin-left: 12px;
   }
   .nav-top-desktop ul a {
-    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+    font-family: "ARS-Maquette", Helvetica Neue, Arial, sans-serif;
     color: hsla(0, 0%, 100%, 0.6);
     font-size: 13px;
   }
@@ -521,6 +528,12 @@ body {
   .nav-icons-list li:last-child {
     display: none;
   }
+
+  .nav-event {
+    line-height: 25px;
+    font-size: 0.83em;
+  }
+
   .grid-desktop {
     display: grid;
     gap: 5px;
@@ -561,12 +574,68 @@ body {
   .deals-header h2 {
     margin: 0;
   }
+
+  .deals-story {
+    position: relative;
+  }
+
+  .deals-row-items {
+    padding: 10px;
+  }
+
   .deals-row-items img::before {
     content: "";
     position: relative;
   }
+
   .deals-row {
     position: static;
+    display: flex;
+  }
+
+  .deals-story a {
+    padding: 5% 0% 5% 35%;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .deals-story-links {
+    line-height: 1.2em;
+    padding: 16px;
+    font-size: 14px;
+  }
+
+  .category-sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .last-main-section-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .last-main-section-list-item {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .last-main-section-list-item-img {
+    padding-top: 74.5%;
+    width: 100%;
+  }
+  .last-main-section-list-item-info {
+    margin-top: 10px;
+    padding: 0;
+  }
+  .footer-legal {
+    display: flex;
+    justify-content: center;
+    padding: 39px 0;
+  }
+
+  .footer-legal span {
+    margin-right: 8px;
   }
 }
 
