@@ -1,451 +1,453 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 body {
-    color: #fff;
-    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  color: #fff;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
-
 
 /*----------------------------- Nav Bar -----------------------------*/
 
 .main-nav {
-    height: 48px;
-    background-color: #fff;
-    position: fixed;
-    right: 0;
-    top: 0;
-    left: 0;
-    z-index: 10;
+  height: 48px;
+  background-color: #fff;
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 
 .nav-logo {
-    height: 20px;
-    background-color: beige;
-    left: 0;
-    position: absolute;
-    top: 0;
+  height: 20px;
+  background-color: beige;
+  left: 0;
+  position: absolute;
+  top: 0;
 }
 
 .nav-logo a {
-    position: relative;
-    background: linear-gradient(to bottom right, #c09, #f42 85%);
-    display: block;
-    height: 48px;
-    padding: 14% 14%;
-    width: 106px;
+  position: relative;
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
+  display: block;
+  height: 48px;
+  padding: 14% 14%;
+  width: 106px;
 }
 
 .nav-top-desktop {
-    display: none;
+  display: none;
 }
 
 .nav-icons-list {
-    float: right;
-    list-style: none;
+  float: right;
+  list-style: none;
 }
 
 .nav-icons::after {
-    clear: both;
-    content: "";
-    display: block;
+  clear: both;
+  content: "";
+  display: block;
 }
 
 .nav-icons-list a {
-    display: block;
-    height: 48px;
-    opacity: .25;
-    padding: 16px;
-    width: 48px;
+  display: block;
+  height: 48px;
+  opacity: 0.25;
+  padding: 16px;
+  width: 48px;
 }
 
 .nav-icons-list a span {
-    width: 16px;
-    height: 16px;
-    -webkit-transform: translateX(-25%);
-    transform: translateX(-25%);
-    color: #000;
+  width: 16px;
+  height: 16px;
+  -webkit-transform: translateX(-25%);
+  transform: translateX(-25%);
+  color: #000;
 }
 
 .nav-icons-list li {
-    float: left;
-    border-left: 1px solid #eee
+  float: left;
+  border-left: 1px solid #eee;
 }
 
 .nav-icons ul:first-child {
-    display: none;
+  display: none;
 }
 
 .nav-event {
-    background-color: #ffdd33;
-    text-align: center;
-    line-height: 60px;
-    color: #000;
-    padding: 0 4%;
-    font-size: 0.9em;
-    text-decoration: none;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  background-color: #ffdd33;
+  text-align: center;
+  line-height: 60px;
+  color: #000;
+  padding: 0 4%;
+  font-size: 0.9em;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-
 
 /*----------------------------- Main -----------------------------*/
 
 .main {
-    padding-top: 72px;
-    /* background-color: blueviolet; */
+  padding-top: 72px;
+  /* background-color: blueviolet; */
 }
 
 .main-articles,
 .wrapper {
-    padding: 2%;
+  padding: 2%;
 }
-
 
 /*------ Featured ------*/
 
 .article-image {
-    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(0, 0, 0, 0.73)), url("../img/boris.png") no-repeat;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 50%;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    height: 100%;
-    margin: 0 0 5px;
+  background: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url("../img/boris.png") no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 50%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  height: 100%;
+  margin: 0 0 5px;
 }
 
 .category-img header,
 .article-image header {
-    padding: 14px 12px;
-    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  padding: 14px 12px;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .article-category {
-    text-transform: uppercase;
-    font-size: 0.9em;
+  text-transform: uppercase;
+  font-size: 0.9em;
 }
 
 .category-img h2,
 .article-image h2 {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .category-header a,
 .article-header a {
-    font-size: 30px;
-    font-weight: bold;
+  font-size: 30px;
+  font-weight: bold;
 }
-
 
 /*------ News ------*/
 
 .latest-news,
 .latest-deals {
-    margin-top: 25px;
-    padding: 2%;
-    color: #000;
+  margin-top: 25px;
+  padding: 2%;
+  color: #000;
 }
 
 .deals-header h2,
 .latest-news-header {
-    font-size: 2em;
-    font-family: Avalon, sans-serif;
-    color: #f42;
-    margin-bottom: 10%;
+  font-size: 2em;
+  font-family: Avalon, sans-serif;
+  color: #f42;
+  margin-bottom: 10%;
 }
 
 .latest-news-item {
-    display: flex;
-    margin-top: 10px;
-    padding: 0% 2% 2% 0%;
+  display: flex;
+  margin-top: 10px;
+  padding: 0% 2% 2% 0%;
 }
 
 .news-image {
-    background: url("../img/latest-news-image.jpg");
-    flex-basis: 20%;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background: url("../img/latest-news-image.jpg");
+  flex-basis: 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .news-info {
-    padding-left: 2%;
-    flex-basis: 80%;
+  padding-left: 2%;
+  flex-basis: 80%;
 }
 
 .news-info h2 {
-    font-size: 1em;
-    font-weight: bold;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 .latest-info-description p {
-    font-size: 0.8em;
-    margin-top: 1%;
-    color: #aaa;
+  font-size: 0.8em;
+  margin-top: 1%;
+  color: #aaa;
 }
-
 
 /*------ Deals ------*/
 
 .deals-header {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .latest-deals-links ul li {
-    margin: 10px 10px 10px 0;
+  margin: 10px 10px 10px 0;
 }
 
 .latest-deals-links ul li a {
-    color: #f42;
-    font-size: 1.2em;
+  color: #f42;
+  font-size: 1.2em;
 }
 
 .deals-story-links {
-    background-color: #fffaf8;
-    color: grey;
-    display: block;
-    padding: 2% 6%;
-    line-height: 3em;
+  background-color: #fffaf8;
+  color: grey;
+  display: block;
+  padding: 2% 6%;
+  line-height: 3em;
 }
 
 .deals-story-links i {
-    margin-right: 5px;
-    font-size: 1.5em;
+  margin-right: 5px;
+  font-size: 1.5em;
 }
 
 .deals-story hr {
-    border: 1px solid #ffccc3;
+  border: 1px solid #ffccc3;
 }
 
 .deals-row-items {
-    margin-bottom: 3%;
-    position: relative;
-    z-index: 1;
+  margin-bottom: 3%;
+  position: relative;
+  z-index: 1;
 }
 
 .deals-row-items img {
-    position: absolute;
-    top: 2%;
-    left: 2%;
-    width: 60px;
-    min-width: 60px;
-    max-width: 60px;
-    height: 60px;
-    min-height: 60px;
-    max-height: 60px;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  width: 60px;
+  min-width: 60px;
+  max-width: 60px;
+  height: 60px;
+  min-height: 60px;
+  max-height: 60px;
 }
 
 .deals-story a {
-    font-size: 1.5em;
-    padding: 2% 0 2% 20%;
-    color: #fff;
-    display: block;
-    background-color: #f42;
+  font-size: 1.5em;
+  padding: 2% 0 2% 20%;
+  color: #fff;
+  display: block;
+  background-color: #f42;
 }
 
 .story-investment-card {
-    background-color: #ffebe8;
-    padding: 2% 0 2% 20%;
+  background-color: #ffebe8;
+  padding: 2% 0 2% 20%;
 }
 
 .story-investment-card p:first-child {
-    font-weight: bold;
-    font-size: 1.2em;
-    color: black;
-    margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: black;
+  margin-bottom: 5px;
 }
 
 .story-investment-card p:last-child {
-    font-size: 0.8em;
-    color: grey;
+  font-size: 0.8em;
+  color: grey;
 }
-
 
 /*------ Category Section ------*/
 
 .category-sections {
-    margin-bottom: 10%;
+  margin-bottom: 10%;
 }
 
 .category-img {
-    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(0, 0, 0, 0.73)), url(../img/Codota-368x276.jpg) no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    padding-top: 50%;
+  background: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url(../img/Codota-368x276.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding-top: 50%;
 }
 
 .category-header {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 .category-img p {
-    font-size: 0.8em;
+  font-size: 0.8em;
 }
 
 .category-latest {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: #fff4f2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #fff4f2;
 }
 
 .category-latest-title {
-    padding: 5% 5%;
-    color: #f42;
-    flex-basis: 75%;
+  padding: 5% 5%;
+  color: #f42;
+  flex-basis: 75%;
 }
 
 .category-latest-image {
-    background: url(../img/category-latest-image-tiktok.png) 50% no-repeat;
-    flex-basis: 25%;
-    background-size: cover;
+  background: url(../img/category-latest-image-tiktok.png) 50% no-repeat;
+  flex-basis: 25%;
+  background-size: cover;
 }
 
 .section-apps ul li {
-    /* border-bottom: 1px solid grey; */
-    padding: 3% 2% 3% 6%;
-    color: #555;
-    font-size: 13px;
-    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  /* border-bottom: 1px solid grey; */
+  padding: 3% 2% 3% 6%;
+  color: #555;
+  font-size: 13px;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .section-apps ul li::before {
-    content: "•";
-    padding-right: 8px;
-    color: #f42;
+  content: "•";
+  padding-right: 8px;
+  color: #f42;
 }
 
 .section-apps h2 {
-    font-size: 2em;
-    color: #f42;
-    font-family: Avalon, sans-serif;
-    margin-bottom: 3%;
-    font-weight: bold;
-    letter-spacing: -.015em;
+  font-size: 2em;
+  color: #f42;
+  font-family: Avalon, sans-serif;
+  margin-bottom: 3%;
+  font-weight: bold;
+  letter-spacing: -0.015em;
 }
 
 .section-apps {
-    padding: 2%;
-    display: flex;
-    flex-direction: column;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
 }
-
 
 /*------ Last Main Section ------*/
 
 .last-main-section {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .last-main-section-header {
-    margin-bottom: 7%;
+  margin-bottom: 7%;
 }
 
 .last-main-section-header h2 {
-    float: left;
-    font-size: 2em;
-    color: #f42;
+  float: left;
+  font-size: 2em;
+  color: #f42;
 }
 
 .last-main-section-header a {
-    float: right;
-    color: #f42;
-    margin-top: 11px;
+  float: right;
+  color: #f42;
+  margin-top: 11px;
 }
 
 .last-main-section-list-item {
-    display: flex;
-    padding: 2%;
+  display: flex;
+  padding: 2%;
 }
 
 .last-main-section-list-item-img {
-    background: url(../img/last-main-section-list-item-img-sale_27973_primary_image.jpg) no-repeat;
-    background-size: cover;
-    width: 75px;
-    height: 75px;
+  background: url(../img/last-main-section-list-item-img-sale_27973_primary_image.jpg)
+    no-repeat;
+  background-size: cover;
+  width: 75px;
+  height: 75px;
 }
 
 .last-main-section-list-item-info {
-    padding: 3%;
-    color: black;
+  padding: 3%;
+  color: black;
 }
 
 .last-main-section-list-item-info p:first-child {
-    margin-bottom: 10px;
-    font-weight: bold;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .last-main-section-list-item-info span {
-    color: #555;
+  color: #555;
 }
 
 .old-price {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
-
 
 /*----------------------------- Footer -----------------------------*/
 
 .footer-links {
-    height: 161px;
-    background-color: #131313;
+  height: 161px;
+  background-color: #131313;
 }
 
 .footer-links ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
 }
 
 .footer-links-menu li {
-    margin-right: 2%;
-    text-transform: uppercase;
-    color: #555;
-    font-size: 0.8em;
+  margin-right: 2%;
+  text-transform: uppercase;
+  color: #555;
+  font-size: 0.8em;
 }
 
 .social-icons li {
-    display: inline;
-    margin-left: 10px;
-    font-size: 12px;
+  display: inline;
+  margin-left: 10px;
+  font-size: 12px;
 }
 
 .social-icons i {
-    padding: 15px;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    background-color: #333;
-    cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background-color: #333;
+  cursor: pointer;
 }
 
 .footer-legal span {
-    display: block;
+  display: block;
 }
 
 .footer-legal {
-    background-color: #000;
-    padding: 1em 0;
-    text-align: center;
-    font-size: 0.9em;
+  background-color: #000;
+  padding: 1em 0;
+  text-align: center;
+  font-size: 0.9em;
 }
-
 
 /* .cover-story {
     min-height: 30vh;
@@ -454,118 +456,119 @@ body {
 } */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .nav-logo a {
-        position: relative;
-        background: linear-gradient(to bottom right, #c09, #f42 85%);
-        display: block;
-        height: 80px;
-        padding: 28% 14%;
-        width: 106px;
-    }
-    .nav-top-desktop {
-        display: flex;
-        background-color: #131313;
-        height: 32px;
-        padding-left: 106px;
-    }
-    .nav-top-desktop ul {
-        display: flex;
-        align-items: center;
-    }
-    .nav-top-desktop ul li {
-        margin-left: 12px;
-    }
-    .nav-top-desktop ul a {
-        font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-        color: hsla(0, 0%, 100%, .6);
-        font-size: 13px;
-    }
-    .nav-top-desktop ul:first-child {
-        flex-basis: 60%;
-    }
-    .nav-top-desktop ul:last-child {
-        flex-basis: 40%;
-        justify-content: flex-end;
-        padding-right: 20px;
-    }
-    .nav-icons {
-        display: flex;
-        background-color: #fff;
-    }
-    .nav-icons ul:first-child {
-        display: flex;
-        padding-left: 106px;
-        flex-basis: 85%;
-        align-items: center;
-    }
-    .nav-icons ul:first-child li {
-        padding-left: 20px;
-        color: #aaa;
-        font-family: Shentox, sans-serif;
-        text-transform: uppercase;
-    }
-    .nav-icons ul:first-child li a {
-        color: #aaa;
-    }
-    .nav-icons ul:last-child {
-        justify-content: flex-end;
-    }
-    .nav-icons-list {
-        flex-basis: 15%;
-        justify-content: flex-end;
-        align-items: flex-end;
-        display: flex;
-    }
-    .nav-icons-list li:last-child {
-        display: none;
-    }
-    .grid-desktop {
-        display: grid;
-        gap: 5px;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
-    .article-image {
-        margin: 0;
-    }
-    .grid-desktop article:first-child {
-        grid-column: 1 / 3;
-        grid-row: 1 / span 2;
-        height: 100%;
-    }
-    .latest-news ul {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .latest-news-item {
-        flex-basis: 33.33%;
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-    }
-    .news-image {
-        padding-top: 50%;
-        width: 100%;
-        margin-bottom: 8px;
-    }
-    .latest-deals-links ul {
-        display: flex;
-    }
-    .latest-deals-links ul li:not(:first-child)::before {
-        content: "|";
-        padding-right: 16px;
-        color: #f42;
-    }
-    .deals-header h2 {
-        margin: 0;
-    }
-    .deals-row-items img::before {
-        content: "";
-        position: relative;
-    }
-    .deals-row {
-        position: static;
-    }
+  .nav-logo a {
+    position: relative;
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
+    display: block;
+    height: 80px;
+    padding: 28% 14%;
+    width: 106px;
+  }
+  .nav-top-desktop {
+    display: flex;
+    background-color: #131313;
+    height: 32px;
+    padding-left: 106px;
+  }
+  .nav-top-desktop ul {
+    display: flex;
+    align-items: center;
+  }
+  .nav-top-desktop ul li {
+    margin-left: 12px;
+  }
+  .nav-top-desktop ul a {
+    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 13px;
+  }
+  .nav-top-desktop ul:first-child {
+    flex-basis: 60%;
+  }
+  .nav-top-desktop ul:last-child {
+    flex-basis: 40%;
+    justify-content: flex-end;
+    padding-right: 20px;
+  }
+  .nav-icons {
+    display: flex;
+    background-color: #fff;
+  }
+  .nav-icons ul:first-child {
+    display: flex;
+    padding-left: 106px;
+    flex-basis: 85%;
+    align-items: center;
+  }
+  .nav-icons ul:first-child li {
+    padding-left: 20px;
+    color: #aaa;
+    font-family: Shentox, sans-serif;
+    text-transform: uppercase;
+  }
+  .nav-icons ul:first-child li a {
+    color: #aaa;
+  }
+  .nav-icons ul:last-child {
+    justify-content: flex-end;
+  }
+  .nav-icons-list {
+    flex-basis: 15%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+  }
+  .nav-icons-list li:last-child {
+    display: none;
+  }
+  .grid-desktop {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .article-image {
+    margin: 0;
+  }
+  .grid-desktop article:first-child {
+    grid-column: 1 / 3;
+    grid-row: 1 / span 2;
+    height: 100%;
+  }
+  .latest-news ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .latest-news-item {
+    flex-basis: 33.33%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .news-image {
+    padding-top: 50%;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .latest-deals-links ul {
+    display: flex;
+  }
+  .latest-deals-links ul li:not(:first-child)::before {
+    content: "|";
+    padding-right: 16px;
+    color: #f42;
+  }
+  .deals-header h2 {
+    margin: 0;
+  }
+  .deals-row-items img::before {
+    content: "";
+    position: relative;
+  }
+  .deals-row {
+    position: static;
+  }
 }
 
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {
+}
