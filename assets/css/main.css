@@ -129,7 +129,9 @@ body {
 
 .article-image {
   padding-top: 50%;
-  background-position: 50%;
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 50%, 50%;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
@@ -198,6 +200,7 @@ body {
   font-family: Avalon, sans-serif;
   color: #f42;
   margin-bottom: 10%;
+  cursor: pointer;
 }
 
 .latest-news-item {
@@ -209,6 +212,9 @@ body {
 .news-image {
   min-height: 72px;
   min-width: 72px;
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .news-info {
@@ -216,9 +222,10 @@ body {
   flex-basis: 80%;
 }
 
-.news-info h2 {
+.news-info a {
   font-size: 1em;
   font-weight: bold;
+  color: #000;
 }
 
 .latest-info-description p {
@@ -335,13 +342,8 @@ body {
 }
 
 .category-img {
-  background:
-    linear-gradient(
-      to bottom,
-      rgba(245, 246, 252, 0.52),
-      rgba(0, 0, 0, 0.73)
-    ),
-    url(../img/Codota-368x276.jpg) no-repeat;
+  background-position: 50%;
+  background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   justify-content: flex-end;
@@ -378,9 +380,10 @@ body {
 }
 
 .category-latest-image {
-  background-position: 50%;
   flex-basis: 25%;
   background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
 }
 
 .section-apps ul li {
@@ -404,6 +407,7 @@ body {
   margin-bottom: 3%;
   font-weight: bold;
   letter-spacing: -0.015em;
+  cursor: pointer;
 }
 
 .section-apps {
@@ -427,6 +431,9 @@ body {
   float: left;
   font-size: 2em;
   color: #f42;
+  font-weight: bold;
+  cursor: pointer;
+  padding-left: 10px;
 }
 
 .last-main-section-list-item {
@@ -435,7 +442,9 @@ body {
 }
 
 .last-main-section-list-item-img {
+  background-position: 50%;
   background-size: cover;
+  background-repeat: no-repeat;
   min-width: 75px;
   padding-top: 75px;
 }
@@ -448,6 +457,7 @@ body {
 .last-main-section-list-item-info p:first-child {
   margin-bottom: 10px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .old-price {
@@ -496,312 +506,231 @@ body {
 /* ----- Images Helper Classes  */
 
 .article-1-img {
-  background:
-    linear-gradient(
-      to bottom,
-      rgba(245, 246, 252, 0.52),
-      rgba(0, 0, 0, 0.73)
-    ),
-    url("../img/TechBig.jpg") no-repeat;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.article-2-img {
-  background:
-    linear-gradient(
-      to bottom,
-      rgba(245, 246, 252, 0.52),
-      rgba(0, 0, 0, 0.73)
-    ),
-    url("../img/Sprint_image.jpg") no-repeat;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.article-3-img {
-  background:
-    linear-gradient(
-      to bottom,
-      rgba(245, 246, 252, 0.52),
-      rgba(0, 0, 0, 0.73)
-    ),
-    url("../img/article3.jpg") no-repeat;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.latest-1-img {
-  background: url("../img/latest1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.latest-2-img {
-  background: url("../img/latest2.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.latest-3-img {
-  background: url("../img/latest3.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.latest-4-img {
-  background: url("../img/latest4.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.latest-5-img {
-  background: url("../img/latest5.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.latest-6-img {
-  background: url("../img/latest6.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.latest-7-img {
-  background: url("../img/latest7.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.latest-8-img {
-  background: url("../img/latest8.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.funding-1-img {
-  background: url("../img/funding1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.funding-2-img {
-  background: url("../img/funding1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.funding-3-img {
-  background: url("../img/funding3.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.funding-4-img {
-  background: url("../img/funding4.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.apps-section-main-img {
-  background:
-    linear-gradient(
-      to bottom,
-      rgba(245, 246, 252, 0.52),
-      rgba(0, 0, 0, 0.73)
-    ),
-    url("../img/AppsBig1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.apps-section-thumb-img {
-  background: url("../img/AppsThumb1.jpg");
-  background-size: cover;
-  background-position: 50%;
-  background-repeat: no-repeat;
-}
-
-.gear-section-main-img {
-  background:
-    linear-gradient(
-      to bottom,
-      rgba(245, 246, 252, 0.52),
-      rgba(0, 0, 0, 0.73)
-    ),
-    url("../img/GearBig.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.gear-section-thumb-img {
-  background: url("../img/GearThumb.png");
-  background-size: cover;
-  background-position: 50%;
-  background-repeat: no-repeat;
-}
-
-.insights-section-main-img {
-  background:
-    linear-gradient(
-      to bottom,
-      rgba(245, 246, 252, 0.52),
-      rgba(0, 0, 0, 0.73)
-    ),
-    url("../img/InsightsBig.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.insights-section-thumb-img {
-  background: url("../img/InsightsThumb.png");
-  background-size: cover;
-  background-position: 50%;
-  background-repeat: no-repeat;
-}
-
-.tech-section-main-img {
-  background:
+  background-image:
     linear-gradient(
       to bottom,
       rgba(245, 246, 252, 0.52),
       rgba(0, 0, 0, 0.73)
     ),
     url("../img/TechBig.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+}
+
+.article-2-img {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url("../img/Sprint_image.jpg");
+}
+
+.article-3-img {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url("../img/article3.jpg");
+}
+
+.latest-1-img {
+  background-image: url("../img/latest1.jpg");
+}
+
+.latest-2-img {
+  background-image: url("../img/latest2.png");
+}
+
+.latest-3-img {
+  background-image: url("../img/latest3.png");
+}
+
+.latest-4-img {
+  background-image: url("../img/latest4.jpg");
+}
+
+.latest-5-img {
+  background-image: url("../img/latest5.jpg");
+}
+
+.latest-6-img {
+  background-image: url("../img/latest6.png");
+}
+
+.latest-7-img {
+  background-image: url("../img/latest7.jpg");
+}
+
+.latest-8-img {
+  background-image: url("../img/latest8.jpg");
+}
+
+.apps-section-main-img {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url("../img/AppsBig1.jpg");
+}
+
+.apps-section-thumb-img {
+  background-image: url("../img/AppsThumb1.jpg");
+}
+
+.gear-section-main-img {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url("../img/GearBig.png");
+}
+
+.gear-section-thumb-img {
+  background-image: url("../img/GearThumb.png");
+}
+
+.insights-section-main-img {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url("../img/InsightsBig.jpg");
+}
+
+.insights-section-thumb-img {
+  background-image: url("../img/InsightsThumb.png");
+}
+
+.tech-section-main-img {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url("../img/TechBig.jpg");
 }
 
 .tech-section-thumb-img {
-  background: url("../img/TechThumb.jpg");
-  background-size: cover;
-  background-position: 50%;
-  background-repeat: no-repeat;
+  background-image: url("../img/TechThumb.jpg");
 }
 
 .creative-section-main-img {
-  background:
+  background-image:
     linear-gradient(
       to bottom,
       rgba(245, 246, 252, 0.52),
       rgba(0, 0, 0, 0.73)
     ),
     url("../img/CreativeBig.png");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .creative-section-thumb-img {
-  background: url("../img/CreativeThumb.png");
-  background-size: cover;
-  background-position: 50%;
-  background-repeat: no-repeat;
+  background-image: url("../img/CreativeThumb.png");
 }
 
 .podium-section-main-img {
-  background:
+  background-image:
     linear-gradient(
       to bottom,
       rgba(245, 246, 252, 0.52),
       rgba(0, 0, 0, 0.73)
     ),
     url("../img/PodiumBig.png");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .podium-section-thumb-img {
-  background: url("../img/PodiumThumb.png");
-  background-size: cover;
-  background-position: 50%;
-  background-repeat: no-repeat;
+  background-image: url("../img/PodiumThumb.png");
 }
 
 .launch-section-main-img {
-  background:
+  background-image:
     linear-gradient(
       to bottom,
       rgba(245, 246, 252, 0.52),
       rgba(0, 0, 0, 0.73)
     ),
     url("../img/LaunchBig.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .launch-section-thumb-img {
-  background: url("../img/LaunchThumb.jpg");
-  background-size: cover;
-  background-position: 50%;
-  background-repeat: no-repeat;
+  background-image: url("../img/LaunchThumb.jpg");
 }
 
 .distract-section-main-img {
-  background:
+  background-image:
     linear-gradient(
       to bottom,
       rgba(245, 246, 252, 0.52),
       rgba(0, 0, 0, 0.73)
     ),
     url("../img/DistractBig.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .distract-section-thumb-img {
-  background: url("../img/DistractThumb.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50%;
+  background-image: url("../img/DistractThumb.png");
 }
 
 .latest-b-1-img {
-  background: url("../img/latestb1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../img/latestb1.jpg");
 }
 
 .latest-b-2-img {
-  background: url("../img/latestb2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../img/latestb2.jpg");
 }
 
 .latest-b-3-img {
-  background: url("../img/latestb3.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../img/latestb3.jpg");
 }
 
 .latest-b-4-img {
-  background: url("../img/latestb4.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../img/latestb4.jpg");
 }
 
 .latest-b-5-img {
-  background: url("../img/latestb5.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../img/latestb5.jpg");
 }
 
 .latest-b-6-img {
-  background: url("../img/latestb6.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../img/latestb6.jpg");
 }
 
 .latest-b-7-img {
-  background: url("../img/latestb7.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../img/latestb7.jpg");
 }
 
 .latest-b-8-img {
-  background: url("../img/latestb8.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../img/latestb8.jpg");
 }
+
+.cover-story:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.news-info a:hover,
+.last-main-section-list-item-info p:hover {
+  color: #f42;
+  text-decoration: underline;
+}
+
+.deals-header h2:hover,
+.latest-news-header:hover,
+.section-apps h2:hover,
+.last-main-section-header h2:hover,
+.last-main-section-header a:hover,
+.latest-deals-links ul li a:hover {
+  color: #000;
+}
+
+/* Media Queries */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .nav-logo a {
