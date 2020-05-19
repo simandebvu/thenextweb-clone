@@ -885,6 +885,10 @@ body {
     padding: 0;
   }
 
+  .category-img {
+    min-height: 367px;
+  }
+
   .footer-legal {
     display: flex;
     justify-content: center;
