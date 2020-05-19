@@ -1,4 +1,4 @@
-# Project Name
+# Building with Responsive Design
 
 > This project consists of replicating the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.
 
@@ -37,7 +37,7 @@ Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](issues/).
 
-## Show your support
+## Show your support!
 
 Give a ⭐️ if you like this project!
 
