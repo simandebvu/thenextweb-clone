@@ -374,6 +374,7 @@ body {
 
 .category-latest-title h3 {
   font-size: 14px;
+  font-weight: bold;
 }
 
 .category-latest-image {
@@ -435,7 +436,7 @@ body {
 
 .last-main-section-list-item-img {
   background-size: cover;
-  width: 75px;
+  min-width: 75px;
   padding-top: 75px;
 }
 
