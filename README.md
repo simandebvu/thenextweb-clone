@@ -1,10 +1,8 @@
 # Project Name
 
-> One paragraph statement about the project.
+> This project consists of replicating the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](/assets/img/screenshot-1.png)
 
 ## Built With
 
@@ -13,26 +11,14 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](#)
-
-
-## Getting Started
-
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
+Click [here](https://raw.githack.com/simandebvu/thenextweb-clone/development/index.html) for a live preview.
 
 ### Usage
 
 - Open index.html in any browser
 
 ## Authors
+
 👤 **Gerónimo Morisot**
 
 - Github: [@Bismarck-GM](https://github.com/Bismarck-GM)
@@ -44,10 +30,6 @@ To get a local copy up and running follow these simple example steps.
 - Github: [@simandebvu](https://github.com/simandebvu)
 - Twitter: [@simandebvu](https://twitter.com/simandebvu)
 - Linkedin: [simandebvu](https://www.linkedin.com/in/simandebvu/)
-
-## Live Demo
-
-Click [here](https://raw.githack.com/Bismarck-GM/microverse-design-teardown/development/index.html) for a live preview.
 
 ## 🤝 Contributing
 
