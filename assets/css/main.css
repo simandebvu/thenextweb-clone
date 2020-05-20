@@ -899,6 +899,10 @@ body {
     margin-right: 8px;
   }
 
+  .nav-icons-list li:last-child {
+    display: none;
+  }
+
   .nav-top-desktop ul:first-child {
     flex-basis: 60%;
   }
